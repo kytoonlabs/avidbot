@@ -1,5 +1,5 @@
 {
-  "name": "avidbot",
+  "name": "kytoonlabs/avidbot",
   "version": "0.9.0",
   "description": "JS Bot created to handle external API services",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kytoonlabs/avidbot.git"
+    "url": "https://github.com/kytoonlabs/avidbot.git"
   },
   "keywords": [
     "bot"
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/kytoonlabs/avidbot/issues"
   },
-  "homepage": "https://github.com/kytoonlabs/avidbot#readme"
+  "homepage": "https://github.com/kytoonlabs/avidbot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.5.0",
+    "discord.js": "^13.8.0"
+  }
 }
